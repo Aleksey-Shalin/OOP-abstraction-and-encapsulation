@@ -69,7 +69,7 @@ int main() {
     in_file.ignore();
 
     // создание динамического массива указателей на адреса
-    Address** addresses = new Address * [N];
+    Address** addresses = new Address* [N];
 
     // считывание адресов из файла
     for (int i = 0; i < N; i++) {
